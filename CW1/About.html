@@ -1,0 +1,173 @@
+<!--`start HTML -->`
+<!DOCTYPE html>
+<!-- The reason for the lang set as english is it is the most used and read
+     language so is accessible to all -->
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!--The Meta tag bellow changes the site and makes it suitble to use on mobile
+    phones as they are the most commonly used device to view websites in 2020 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--below is a link to the css stylesheet that has been written for the site -->
+<link rel="stylesheet" href="CSS/style.css" type="text/css" />
+<!-- Style element to make the images on this page have a shadow for a creative look to the page-->
+<style>
+img{-webkit-filter: drop-shadow(5px 5px 5px #666666);
+filter: drop-shadow(5px 5px 5px #666666)}
+</style>
+<!-- Tile of the webpage -->
+<title>About the Cast</title>
+</head>
+<body>
+<!-- creating a div class element alows for a banner style at the top showcasing
+     the name of the film as well as some imagary on both pages before getting
+     into the content of the page.-->
+<div class="title">
+<div>
+<img src="Image/Portal.jpg" alt="portal" align="left" width="125" height="75" />
+<img src="Image/logo.jpg" alt="logo" align="center" width="375" height="75" />
+<img src="Image/Portal.jpg" alt="portal" align="right" width="125" height="75"/>
+</div>
+</div>
+<!-- following what we learnt in week 7 the artical style layoyt has been for
+the cast page as it was a creative style fitting for cast members and their info to be shown in a neat and consice format,
+with each having their own section, and being able to click on their name to find out
+more info instead of having to scroll through the page to find out makes it
+easier for navigation -->
+<article>
+<section>
+<a href="Home.html">Back to Home Page</a>
+</section>
+<header>
+<h1>Main Cast</h1>
+<nav>
+<a style="color: red" href="#Benedict">Benedict Cumberbatch</a>
+<a style="color: gold" href="#Tilda">Tilda Swinton</a>
+<a style="color: lime" href="#Mads">Mads Mikkelsen</a>
+<a style="color: Magenta" href="#Benedict W">Benedict Wong</a>
+<!-- "Excelsior!" - Stan Lee (1922 - 2018) R.I.P -->
+<a style="color: cyan" href="#Stan">Stan Lee</a>
+</nav>
+</header>
+<!-- below is each cast member's information, the first one contains notes on the
+     code  and it follows the rules for the other cast members-->
+<section id="Benedict">
+<h1 style="color: red">Benedict Cumberbatch</h1>
+<p>Benedict Cumberbatch rose to fame as the star of the BBC's Sherlock. He went
+   on to appear in Hollywood films such as Tinker Tailor Soldier Spy, War Horse,
+   Star Trek: Into Darkness and The Hobbit trilogy. Along with winning several
+   stage and screen awards, Cumberbatch received Golden Globe and Oscar
+   nominations for his role in the acclaimed 2014 Alan Turing biopic, The
+   Imitation Game. He joined the Marvel Cinematic Universe in 2016 as the
+   titular sorcerer of Doctor Strange, later reprising the role for blockbusters
+   like Thor: Ragnarok and Avengers: Infinity War.</p>
+<img src="Image/BenedictCumberbatch.JPG" alt="Benedict Cumberbatch" id="BC">
+<aside>
+<!-- More info about the actor/actress added as lables.-->
+<p><span class="lable">Cast as: </span>Doctor Strange</p>
+<p><span class="lable">Age: </span>19 July 1976 (age 44 years)</p>
+<p><span class="lable">Fun fact: </span>He thinks his name sounds like 'A fart in a bath'</p>
+</aside>
+<p>Find Below a MP3 of an interview with him about the film</p>
+<!-- added below are 3 different types of audio file incse one of them do not
+work on a specif browser, as well as a link to the audio file to view it another
+way.-->
+<audio controls>
+<source src="Audio/BC.mp3" type='audio/mpeg'>
+<source src="Audio/BC.wav" type="audio/wav">
+<source src="Audio/BC.ogg" type="audio/ogg">
+</audio>
+<p><b>If you can't view the Audio</b></p>
+<a href="https://www.youtube.com/watch?v=6MGJ1mZ0nBk&t=14s">Click Here to listen and view on Youtube</a>
+<p><b>If you want to read more about Benedict</b></p>
+<a href="https://www.biography.com/actor/benedict-cumberbatch">Click Here</a>
+</section>
+
+<section id="Tilda">
+<h1 style="color: gold">Tilda Swinton</h1>
+<p>Tilda Swinton was born on November 5, 1960, in London, England. A childhood
+  classmate and friend to Lady Diana, she graduated from Cambridge University
+  in 1983. After performing with the Royal Shakespeare Company, Swinton made
+  her film debut in Derek Jarman's Caravaggio. She later earned an Academy
+  Award (best supporting actress) for her role in Michael Clayton.</p>
+<img src="Image/TildaSwinton.jpg" alt="Tilda Swinton" id="TS">
+<aside>
+<p><span class="lable">Cast as: </span>The Ancient One</p>
+<p><span class="lable">Age: </span>5 November 1960 (60 years)</p>
+<p><span class="lable">Fun Fact: </span>As a child, She once planned to kill her brother, They're okay now.  </p>
+</aside>
+<p><span class="lable">For More Info</span></p>
+<a href="https://www.biography.com/actor/tilda-swinton">Click here</a>
+</section>
+
+<section id="Mads">
+<h1 style="color: lime">Mads Mikkelsen</h1>
+<p>Mads Dittmann Mikkelsen (born 22 November 1965) is a Danish actor.
+   In May 2012, he won the Best Actor Award at the Cannes Film Festival for his
+   role in the film The Hunt.</p>
+<img src="Image/Mads.jpg" alt="Mads Mikkelsen" id="MM">
+<aside>
+<p><span class="lable">Cast as: </span>about 104,700</p>
+<p><span class="lable">Age: </span>1965 (55)</p>
+<p><span class="lable">Fun Fact: </span>In 2010, he starred in the remake of
+Clash of the Titans, as Draco, the leader of the king’s guard alongside Sam Worthington.</p>
+</aside>
+<p><span class="lable">To read more of his Biography</span></p>
+<a href="https://madsmikkelsen.com/biography/">Click Here</a>
+</section>
+
+<section id="Benedict W">
+<h1 style="color: Magenta">Benedict Wong</h1>
+<p>Benedict Wong was born in 1970 in Manchester, England. He is an actor and
+   writer, known for Doctor Strange (2016), Avengers: Infinity War (2018) and
+   The Martian (2015).</p>
+<img src="Image/BWong.jpg" alt="Benedict Wong" id="BW">
+<aside>
+<p><span class="lable">Cast as: </span>Wong</p>
+<p><span class="lable">Age: </span>1970 (50)</p>
+<p><span class="lable">Fun Fact: </span>Fan of Manchester United.</p>
+</aside>
+<p><span class="lable">To View His IMBD Biography</span></p>
+<a href="https://www.imdb.com/name/nm0938950/">Click Here</a>
+</section>
+
+<section id="Stan">
+<h1 style="color: cyan">Stan lee</h1>
+<p>Stan Lee went on to work for the company that would eventually become Marvel
+   Comics. With artist Jack Kirby, Lee launched the superhero team the Fantastic
+   Four in 1961 and was soon responsible for creating popular characters like
+   Spider-Man, the X-Men, the Hulk and Thor. Lee later worked in a number of
+   comic-related business and multimedia ventures.</p>
+<img src="Image/Stan.jpg" alt="Stan Lee"/>
+<aside>
+<p><span class="lable">Cast as: </span>Bus Passenger(cameo)</p>
+<p><span class="lable">Age: </span> December 28, 1922 - November 12, 2018 (Aged 95) R.I.P </p>
+<p><span class="lable">Fun Fact: </span>He was 17 when he Created what became Marvel Comics</p>
+<audio controls >
+<source src="Audio/SL.mp3" type="audio/mpeg">
+<source src="Audio/SL.wav" type="audio/wav">
+<source src="Audio/SL.ogg" type="audio/ogg">
+</audio>
+<p><b>If you can't view the Audio<b></p>
+<a href="https://www.youtube.com/watch?v=moss-IIolDo">Click Here to listen and view on Youtube</a>
+<p><span class="lable">To Read more of his Biography</span></p>
+<a href="https://www.biography.com/media-figure/stan-lee">Click Here</a>
+</aside>
+</section>
+<header>
+<h1>IMBD LINKS</h1>
+<nav>
+<a style="color: red" href="https://www.imdb.com/name/nm1212722/?ref_=nv_sr_srsg_0">Benedict Cumberbatch</a>
+<a style="color: gold" href="https://www.imdb.com/name/nm0842770/?ref_=nv_sr_srsg_0">Tilda Swinton</a>
+<a style="color: lime" href="https://www.imdb.com/name/nm0586568/?ref_=nv_sr_srsg_0">Mads Mikkelsen</a>
+<a style="color: Magenta" href="https://www.imdb.com/name/nm0938950/">Benedict Wong</a>
+<a style="color: cyan" href="https://www.imdb.com/name/nm0498278/?ref_=nv_sr_srsg_0">Stan Lee</a>
+</nav>
+</header>
+</article>
+<!--End of the article style sections for the cast-->
+</body>
+<!--Footer included on both pages to identify who created the page-->
+<footer>Created by Dan Jacques P2610262 Multimedia Coursework 1</footer>
+</html>
+<!-- End HTML-->
