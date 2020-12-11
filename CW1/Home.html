@@ -1,0 +1,92 @@
+<!--Start HTML-->
+<!DOCTYPE html>
+<!-- The reason for the lang set as english is it is the most used and read
+     language so is accessible to all -->
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!--The Meta tag bellow changes the site and makes it suitble to use on mobile
+    phones as they are the most commonly used device to view websites in 2020 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Tile of the webpage -->
+<title>HomePage</title>
+<!--below is a link to the css stylesheet that has been written for the site -->
+<link rel="stylesheet" href="CSS/style.css" type="text/css">
+<!-- Style element to make the images on this page have a shadow for a creative look to the page-->
+<style>
+img{-webkit-filter: drop-shadow(5px 5px 5px #666666);
+filter: drop-shadow(5px 5px 5px #666666)}
+</style>
+</head>
+<body>
+  <!-- creating a div class element alows for a banner style at the top showcasing
+       the name of the film as well as some imagary on both pages before getting
+       into the content of the page.-->
+<div class="title">
+<div>
+<img src="Image/Portal.jpg" alt="banner1" align="left" width="375" height="75">
+<img src="Image/logo.jpg" alt="banner 2" align="center" width="375" height="75">
+<img src="Image/Portal.jpg" alt="banner 3" align="right" width="375" height="75">
+</div>
+</div>
+<!--Using divs and sections below helps to group all the info for each part of the site, also alows styling -->
+<div class="title">
+<h1><b>Welcome to the Home Page</b></h1>
+</div>
+<!--below is the nav menu that sends you to the cast page as well as areas of importance on the current page-->
+<section>
+<nav>
+<div class="menuItem">
+<a href="#Trailer">View trailer</a>
+</div>
+<div class="menuItem">
+<a href="#Synopsis">Read Synopsis</a>
+</div>
+<div class="menuItem">
+<a href="About.html">See Cast</a>
+</div>
+</nav>
+</section>
+<!--using section id alows for styling of the section and alows the nav to be able to jump to this part of the page-->
+<section id="Synopsis">
+<!--this links to the style sheet alowing for a style to be added to the synopsis-->
+<div class="Synopsis">
+<!--information about the film below including lables just like the cast section-->
+<h1>Synopsis</h1>
+<p>Benedict Cumberbatch stars as world-famous neurosurgeon Dr. Stephen Strange whose life changes forever after a horrific car accident robs him of the use of his hands. When traditional medicine fails him, he is forced to look for healing—and hope—in an unlikely place: a mysterious enclave known as Kamar-Taj. He quickly learns that this is not just a center for healing but also the front line of a battle against unseen dark forces bent on destroying our reality. Before long Strange—armed with newly acquired magical powers—is forced to choose whether to return to his life of fortune and status or leave it all behind to defend the world as the most powerful sorcerer in existence.</p>
+<p>Marvel Studios Doctor Strange also stars Chiwetel Ejiofor, Rachel McAdams, Benedict Wong, Michael Stuhlbarg, Benjamin Bratt, Scott Adkins, Mads Mikkelsen and Tilda Swinton.</p>
+
+<blockquote>"It's not all that strange, but it's restlessly arresting and always technically impressive. Unlike most studio franchise fantasies, Doctor Strange rewards the eye rather than assaults it."  Alan Scherstuhl, Village Voice </blockquote>
+<p><span class="lable">Release date: </span>24 October 2016 (United Kingdom)</p>
+<p><span class="lable">Director: </span>Scott Derrickson</p>
+<p><span class="lable">Film series: </span>Doctor Strange</p>
+<p><span class="lable">Box office: </span>677.7 million USD</p>
+<p><span class="lable">Awards: </span>Costume Designers Guild Award for Excellence in Fantasy Film, Empire Award for Best Visual Effects</p>
+<p><span class="lable">Synopsis from: </span><a href="https://omsi.edu/calendar/doctor-strange">Doctor Strange Synopsis</a></p>
+<p><span class="lable">Information from: </span><a href="https://www.imdb.com/title/tt1211837/">IMBD</a></p>
+</div>
+</section>
+<!--using section id alows for styling of the section and alows the nav to be able to jump to this part of the page-->
+<section id="Trailer">
+<!--this links to the style sheet alowing for a style to be added to the synopsis-->
+<div class="Trailer">
+<h1><strong>View Trailer here.</strong></h1>
+<!--added in different versions just incase certain browsers could not view a specific version-->
+<video width="100%" height="520" controls="true" poster="Image/BackgroudPoster.Jpg">
+<source src="Video/videoplayback.mp4" type="video/mp4">
+<source src="Video/videoplayback.ogg" type="video/ogg">
+Your Browser does not support the Video tag.
+</video>
+<!--Included an option to view externaly-->
+<p><b>If you Cant watch the video on this site then click on the link bellow to view </b></p>
+<a href="https://www.youtube.com/watch?v=Lt-U_t2pUHI">Click Here!</a>
+<!--Included an option to download-->
+<p><b>Click Below to Download as MP4!</b></p>
+<a href="Video/videoplayback.mp4">Click Here!</a>
+</section>
+<!--end of body elementand the page-->
+</body>
+<!--Footer explaining who created the page-->
+<footer>Created by Dan Jacques P2610262 Multimedia Coursework 1</footer>
+</html>
+<!--End HTML-->
